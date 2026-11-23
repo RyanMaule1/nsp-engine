@@ -1,0 +1,5 @@
+{
+    "C_Cpp.default.compilerPath": "/usr/bin/g++-16",
+    "C_Cpp.default.cppStandard": "c++26",
+    "C_Cpp.default.intelliSenseMode": "linux-gcc-x64"
+}

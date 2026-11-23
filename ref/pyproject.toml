@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nsp-golden"
+version = "0.1.0"
+description = "SpikeInterface-based golden reference for NSP-1 spike detection"
+requires-python = ">=3.10"
+dependencies = ["spikeinterface>=0.106", "probeinterface>=0.3", "numpy", "scipy", "numba", "pandas", "pytest"]
+
+[project.scripts]
+nsp-golden = "nsp_golden.golden:main"
+
+[tool.setuptools]
+packages = ["nsp_golden"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

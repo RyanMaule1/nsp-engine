@@ -1,0 +1,5 @@
+# keep only checksums + manifests in git
+*/**
+!*/
+!*/SHA256SUMS
+!*/manifest.json
